@@ -1,0 +1,74 @@
+body {
+	background: #ccccff;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+.titulo-principal {
+	font-size: 30px;
+	font-family: 'Bitter', serif;
+    text-align: left;
+    background-color: #ccccff;
+    color: #FFF;
+	padding: 25px;
+	margin-left: 15px;
+	margin-top: 30px;
+    text-transform: uppercase;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 40px 0;
+	padding-bottom: 80px;
+}
+
+.texto {
+    text-align: justify;
+    margin: 15px;
+}
+
+.texto a {
+	text-decoration: none;
+}
+
+.navegacao-site {
+	float: right;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+}
+
+.icones-sociais li { 
+	display: inline-block;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(../imagens/github.png);
+}
+
+.twitter {
+	background-image: url(../imagens/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../imagens/linkedin.png);
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 10px;
+	clear: both; /*necessário pq o main tá float, sem isso ele sobe*/
+	position: fixed; /*posição fixa em relação à tela*/
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
